@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -38,7 +39,6 @@
             this.BtnUpdate = new System.Windows.Forms.Button();
             this.txtSoname = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -62,14 +62,23 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "සාමාජිකයන්ගේ විස්තර";
             // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(165, 57);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(320, 33);
+            this.comboBox1.TabIndex = 58;
+            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 110);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 96);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(704, 371);
+            this.dataGridView1.Size = new System.Drawing.Size(704, 385);
             this.dataGridView1.TabIndex = 55;
             // 
             // textBox4
@@ -114,7 +123,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(8, 80);
+            this.label1.Location = new System.Drawing.Point(8, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 25);
             this.label1.TabIndex = 35;
@@ -135,7 +144,7 @@
             this.txtSoname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtSoname.Location = new System.Drawing.Point(165, 21);
             this.txtSoname.Name = "txtSoname";
-            this.txtSoname.Size = new System.Drawing.Size(304, 30);
+            this.txtSoname.Size = new System.Drawing.Size(320, 30);
             this.txtSoname.TabIndex = 34;
             // 
             // label4
@@ -148,14 +157,6 @@
             this.label4.TabIndex = 33;
             this.label4.Text = "සාමාජිකයාගේ නම";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(165, 80);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(231, 24);
-            this.comboBox1.TabIndex = 58;
-            // 
             // frmSocialites
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -167,6 +168,7 @@
             this.Name = "frmSocialites";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmSocialites";
+            this.Load += new System.EventHandler(this.frmSocialites_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

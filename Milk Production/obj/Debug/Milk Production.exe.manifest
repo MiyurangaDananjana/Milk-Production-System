@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Milk Production.exe" size="480216">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Milk Production.exe" size="480728">
       <assemblyIdentity name="Milk Production" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Qun2D6Pfi3QFfHVUE42IY/M+qjIH0VT7xgh0QFa3w9o=</dsig:DigestValue>
+        <dsig:DigestValue>6e4B9zfgsl6tn+Ubm76K9a6DwIDhr9nQChQqaxKnESQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

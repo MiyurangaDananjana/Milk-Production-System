@@ -27,5 +27,6 @@ namespace Milk_Production.UI
             DataSet dataSet = Data.GetData(sql);
             dataGridView1.DataSource = dataSet.Tables[0];
         }
+        
     }
 }
