@@ -1,0 +1,54 @@
+C:\Users\User\source\repos\Milk Production\Milk Production\bin\Debug\Milk Production.exe.config
+C:\Users\User\source\repos\Milk Production\Milk Production\bin\Debug\Milk Production.exe
+C:\Users\User\source\repos\Milk Production\Milk Production\bin\Debug\Milk Production.pdb
+C:\Users\User\source\repos\Milk Production\Milk Production\obj\Debug\Milk Production.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Milk Production\Milk Production\obj\Debug\Milk_Production.Form1.resources
+C:\Users\User\source\repos\Milk Production\Milk Production\obj\Debug\Milk_Production.Properties.Resources.resources
+C:\Users\User\source\repos\Milk Production\Milk Production\obj\Debug\Milk Production.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Milk Production\Milk Production\obj\Debug\Milk Production.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Milk Production\Milk Production\obj\Debug\Milk Production.exe
+C:\Users\User\source\repos\Milk Production\Milk Production\obj\Debug\Milk Production.pdb
+D:\company project vedios\Milk Production\Milk Production\bin\Debug\Milk Production.exe.config
+D:\company project vedios\Milk Production\Milk Production\bin\Debug\Milk Production.exe
+D:\company project vedios\Milk Production\Milk Production\bin\Debug\Milk Production.pdb
+D:\company project vedios\Milk Production\Milk Production\obj\Debug\Milk Production.csproj.AssemblyReference.cache
+D:\company project vedios\Milk Production\Milk Production\obj\Debug\Milk_Production.Form1.resources
+D:\company project vedios\Milk Production\Milk Production\obj\Debug\Milk_Production.Properties.Resources.resources
+D:\company project vedios\Milk Production\Milk Production\obj\Debug\Milk Production.csproj.GenerateResource.cache
+D:\company project vedios\Milk Production\Milk Production\obj\Debug\Milk Production.csproj.CoreCompileInputs.cache
+D:\company project vedios\Milk Production\Milk Production\obj\Debug\Milk Production.exe
+D:\company project vedios\Milk Production\Milk Production\obj\Debug\Milk Production.pdb
+D:\company project vedios\Milk Production\Milk Production\obj\Debug\Milk_Production.admin_login_UI.resources
+C:\Users\Miyuranga\Desktop\Milk Production\bin\Debug\Milk Production.exe.config
+C:\Users\Miyuranga\Desktop\Milk Production\bin\Debug\Milk Production.exe
+C:\Users\Miyuranga\Desktop\Milk Production\bin\Debug\Milk Production.pdb
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk Production.csproj.AssemblyReference.cache
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk Production.csproj.SuggestedBindingRedirects.cache
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk_Production.admin_login_UI.resources
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk_Production.Properties.Resources.resources
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk Production.csproj.GenerateResource.cache
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk Production.csproj.CoreCompileInputs.cache
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk Production.exe
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk Production.pdb
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk_Production.manager_UI.resources
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk_Production.System_Login_UI.resources
+C:\Users\Miyuranga\Desktop\New folder\Milk Production\bin\Debug\Milk Production.exe.config
+C:\Users\Miyuranga\Desktop\New folder\Milk Production\bin\Debug\Milk Production.exe
+C:\Users\Miyuranga\Desktop\New folder\Milk Production\bin\Debug\Milk Production.pdb
+C:\Users\Miyuranga\Desktop\New folder\Milk Production\obj\Debug\Milk Production.csproj.AssemblyReference.cache
+C:\Users\Miyuranga\Desktop\New folder\Milk Production\obj\Debug\Milk Production.csproj.SuggestedBindingRedirects.cache
+C:\Users\Miyuranga\Desktop\New folder\Milk Production\obj\Debug\Milk_Production.admin_login_UI.resources
+C:\Users\Miyuranga\Desktop\New folder\Milk Production\obj\Debug\Milk_Production.manager_UI.resources
+C:\Users\Miyuranga\Desktop\New folder\Milk Production\obj\Debug\Milk_Production.Properties.Resources.resources
+C:\Users\Miyuranga\Desktop\New folder\Milk Production\obj\Debug\Milk_Production.System_Login_UI.resources
+C:\Users\Miyuranga\Desktop\New folder\Milk Production\obj\Debug\Milk Production.csproj.GenerateResource.cache
+C:\Users\Miyuranga\Desktop\New folder\Milk Production\obj\Debug\Milk Production.csproj.CoreCompileInputs.cache
+C:\Users\Miyuranga\Desktop\New folder\Milk Production\obj\Debug\Milk Production.exe
+C:\Users\Miyuranga\Desktop\New folder\Milk Production\obj\Debug\Milk Production.pdb
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk_Production.UI.new_user.resources
+C:\Users\Miyuranga\Desktop\Milk Production\bin\Debug\Milk Production.exe.manifest
+C:\Users\Miyuranga\Desktop\Milk Production\bin\Debug\Milk Production.application
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk Production.exe.manifest
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk Production.application
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk_Production.UI.frmSociety.resources
+C:\Users\Miyuranga\Desktop\Milk Production\obj\Debug\Milk_Production.UI.frmSocialites.resources
