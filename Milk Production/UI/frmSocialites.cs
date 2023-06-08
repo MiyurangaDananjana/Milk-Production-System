@@ -27,7 +27,7 @@ namespace Milk_Production.UI
             comboBox1.DisplayMember = "NAME";
             comboBox1.ValueMember = "SOCIETY_ID";
 
-            string sql = "SELECT SOCIETY_ID,NAME FROM SOCIETY_TB";
+            string sql = "SELECT SOCIETY_ID,NAME FROM SOCIETY";
             comboBox1.DataSource = Data.GetData(sql).Tables[0];
             comboBox1.Refresh();
 

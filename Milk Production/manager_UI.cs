@@ -23,7 +23,7 @@ namespace Milk_Production
         private void manager_UI_Load(object sender, EventArgs e)
         {
             lblDate.Text = DateTime.Now.ToString("yyyy/MM/dd");
-            loadGrid();
+
         }
 
 

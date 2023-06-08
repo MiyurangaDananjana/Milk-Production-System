@@ -91,6 +91,7 @@
     <Compile Include="DAL\AppConttroler.cs" />
     <Compile Include="DAL\Society_DAL.cs" />
     <Compile Include="DAL\Data.cs" />
+    <Compile Include="DAL\systemUser_DAL.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

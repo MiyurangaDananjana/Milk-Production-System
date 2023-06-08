@@ -58,5 +58,10 @@ namespace Milk_Production
         {
 
         }
+
+        private void System_Login_UI_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -21,7 +21,7 @@ namespace Milk_Production.UI
         private void button1_Click(object sender, EventArgs e)
         {
 
-            if (txtSoname.Text == null && txtAddressLine1 == null)
+            if (txtSoname.Text != null && txtAddressLine1 != null)
             {
                 Society_DAL dal = new Society_DAL();
                 dal.Name = txtSoname.Text;
@@ -29,6 +29,7 @@ namespace Milk_Production.UI
                 dal.AddressLine2 = txtAddressLine2.Text;
                 string message = dal.SaveSociety();
                 loadGrid();
+                clearTextBox();
                 MessageBox.Show($"{message}");
             }
             else
@@ -40,15 +41,31 @@ namespace Milk_Production.UI
 
 
         }
+        protected void clearTextBox()
+        {
+            txtSoname.Text = string.Empty;
+            txtAddressLine1.Text= string.Empty;
+            txtAddressLine2.Text= string.Empty;
+        }
 
         private void frmSociety_Load(object sender, EventArgs e)
         {
             loadGrid();
+            clearTextBox();
+            if (dataGridView1.Rows.Count == 0)
+            {
+                dataGridView1.Enabled = false;
+            }
+            else
+            {
+
+                dataGridView1.Enabled = true;
+            }
         }
 
         protected void loadGrid()
         {
-            string sql = "SELECT * FROM SOCIETY_TB";
+            string sql = "SELECT * FROM SOCIETY";
             DataSet dataSet = Data.GetData(sql);
             dataGridView1.DataSource = dataSet.Tables[0];
 
@@ -60,7 +77,7 @@ namespace Milk_Production.UI
 
         private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0) // Ensure a valid row index
+            if (e.RowIndex <= 0) // Ensure a valid row index
             {
 
                 DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
@@ -68,6 +85,10 @@ namespace Milk_Production.UI
                 txtSoname.Text = selectedRow.Cells["NAME"].Value.ToString();
                 txtAddressLine1.Text = selectedRow.Cells["ADDRESS_LINE_1"].Value.ToString();
                 txtAddressLine2.Text = selectedRow.Cells["ADDRESS_LINE_2"].Value.ToString();
+            }
+            else
+            {
+                dataGridView1.Enabled = false;
             }
         }
 
@@ -86,14 +107,14 @@ namespace Milk_Production.UI
 
         private void BtnUpdate_Click(object sender, EventArgs e)
         {
-            if(Society_DAL.SocietyId != null)
+            if (Society_DAL.SocietyId != null)
             {
                 Society_DAL dal = new Society_DAL();
                 dal.Name = txtSoname.Text;
                 dal.AddressLine1 = txtAddressLine1.Text;
                 dal.AddressLine2 = txtAddressLine2.Text;
-               
-                string message= dal.updateSociety();
+
+                string message = dal.updateSociety();
                 loadGrid();
                 MessageBox.Show($"{message}");
 
@@ -106,7 +127,7 @@ namespace Milk_Production.UI
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-           
+
         }
     }
 }

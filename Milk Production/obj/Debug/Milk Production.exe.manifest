@@ -42,24 +42,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Milk Production.exe" size="480728">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Milk Production.exe" size="482776">
       <assemblyIdentity name="Milk Production" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6e4B9zfgsl6tn+Ubm76K9a6DwIDhr9nQChQqaxKnESQ=</dsig:DigestValue>
+        <dsig:DigestValue>4y2eIqZbobQH1WNymbUY52X9UxsxNM5cSS0vFtp9SAI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Milk Production.exe.config" size="345">
+  <file name="Milk Production.exe.config" size="348">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>F9ve/tcg8oh03+AcGlCnwz/Uk1JXZWnFD6M2mXsbWdE=</dsig:DigestValue>
+      <dsig:DigestValue>3ySb6QV1fcHI01kU3vpFlKGjCQzthCFPrZjwPMlvRh0=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
