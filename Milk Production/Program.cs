@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Milk_Production.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Milk_Production
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new System_Login_UI());
+            Application.Run(new frmMain());
         }
     }
 }

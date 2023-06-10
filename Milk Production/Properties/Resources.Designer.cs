@@ -63,19 +63,9 @@ namespace Milk_Production.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _4636936_2461929 {
+        internal static System.Drawing.Bitmap exit_full_screen {
             get {
-                object obj = ResourceManager.GetObject("4636936_2461929", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cow_milk_dairy {
-            get {
-                object obj = ResourceManager.GetObject("cow-milk-dairy", resourceCulture);
+                object obj = ResourceManager.GetObject("exit-full-screen", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +106,36 @@ namespace Milk_Production.Properties {
         internal static System.Drawing.Bitmap password__1_ {
             get {
                 object obj = ResourceManager.GetObject("password (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap project_management {
+            get {
+                object obj = ResourceManager.GetObject("project-management", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap project_management__1_ {
+            get {
+                object obj = ResourceManager.GetObject("project-management (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap project_management__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("project-management (1)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

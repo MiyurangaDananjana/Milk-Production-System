@@ -37,5 +37,29 @@ namespace Milk_Production
             }
             return success;
         }
+
+        public static string checkConnection()
+        {
+            string message = string.Empty;
+            using (SqlConnection sqlConnection = new SqlConnection(cs))
+            {
+            
+
+
+                try
+                {
+                    sqlConnection.Open();
+                    message = "Connection successful.";
+                    return message;
+                }
+                catch (Exception)
+                {
+                    message = "Connection Fail.";
+                    return message;
+                    
+                }
+            }
+
+        }
     }
 }

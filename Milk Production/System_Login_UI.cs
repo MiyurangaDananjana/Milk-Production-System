@@ -15,53 +15,63 @@ namespace Milk_Production
         public System_Login_UI()
         {
             InitializeComponent();
-        }
 
+        }
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string userName = txtUserName.Text;
-            string password = txtPassword.Text;
-
-            AppConttroler app = new AppConttroler();
-
-            int login = app.login(userName, password);
-            if (login == (int)UserRole.Admin)
+            try
             {
-                manager_UI ui = new manager_UI();
-                this.Hide();
-                ui.button1.Enabled = false;
-                ui.Show();
+                string userName = txtUserName.Text;
+                string password = txtPassword.Text;
+
+                if (string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(password))
+                {
+                    MessageBox.Show("කරුණාකර පරිශීලක නාමය සහ මුරපදය යන දෙකම ඇතුළත් කරන්න.");
+                }
+                else
+                {
+                    AppConttroler app = new AppConttroler();
+                    int login = app.login(userName, password);
+                    if (login == (int)UserRole.Admin)
+                    {
+                        manager_UI ui = new manager_UI();
+                        ui.button1.Enabled = false;
+                        this.Hide();
+                        ui.ShowDialog();
+                    }
+                    else if (login == (int)UserRole.User)
+                    {
+                        this.Close();
+                        manager_UI ui = new manager_UI();
+                        ui.BtnDelete.Enabled = false;
+                        ui.BtnUpdate.Enabled = false;
+                        ui.btnNewUser.Enabled = false;
+                        ui.btnReportDownload.Enabled = false;
+                        this.Hide();
+                        ui.ShowDialog();
+                    }
+                    else
+                    {
+                        MessageBox.Show("වලංගු නොවන පරිශීලක නාමයක් හෝ මුරපදයක්!");
+                    }
+                }
 
             }
-            else if (login == (int)UserRole.User)
+            catch (Exception ex)
             {
-                manager_UI ui = new manager_UI();
-                this.Hide();
-                ui.BtnDelete.Enabled = false;
-                ui.BtnDeleteAll.Enabled = false;
-                ui.BtnUpdate.Enabled = false;
-                ui.Show();
 
+                MessageBox.Show("Error" + ex);
             }
-            else
-            {
-                MessageBox.Show("Check user name and password !");
-            }
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
+           
         }
 
         private void System_Login_UI_Load(object sender, EventArgs e)
         {
-
+            lblconnectioncheck.Text = Data.checkConnection();
+        }
+        private void txtPassword_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar);
         }
     }
 }

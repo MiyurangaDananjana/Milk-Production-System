@@ -59,7 +59,6 @@ C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\Milk Produc
 C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\Milk Production.pdb
 C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk Production.csproj.AssemblyReference.cache
 C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk Production.csproj.SuggestedBindingRedirects.cache
-C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk_Production.admin_login_UI.resources
 C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk_Production.manager_UI.resources
 C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk_Production.Properties.Resources.resources
 C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk_Production.System_Login_UI.resources
@@ -72,3 +71,35 @@ C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk Produc
 C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk Production.application
 C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk Production.exe
 C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk Production.pdb
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk_Production.UI.frmMain.resources
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk_Production.UI.frmCollector.resources
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk_Production.UI.frmReportDownload.resources
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\ClosedXML.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\EPPlus.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\ExcelNumberFormat.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\Irony.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\SixLabors.Fonts.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\System.Buffers.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\System.IO.Packaging.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\System.Memory.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\System.ValueTuple.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\XLParser.dll
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\ClosedXML.xml
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\EPPlus.xml
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\ExcelNumberFormat.xml
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\SixLabors.Fonts.xml
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\System.Buffers.xml
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\System.IO.Packaging.xml
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\System.Memory.xml
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\bin\Debug\System.ValueTuple.xml
+C:\Users\Miyuranga\Desktop\Milk_Production\Milk Production\obj\Debug\Milk Production.csproj.CopyComplete

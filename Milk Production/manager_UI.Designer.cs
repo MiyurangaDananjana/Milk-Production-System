@@ -33,40 +33,41 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.txtBts = new System.Windows.Forms.TextBox();
+            this.txtTs = new System.Windows.Forms.TextBox();
+            this.txtlrNumber = new System.Windows.Forms.TextBox();
+            this.txtGivenMilk = new System.Windows.Forms.TextBox();
+            this.txtSampleNumber = new System.Windows.Forms.TextBox();
+            this.txtAmount = new System.Windows.Forms.TextBox();
+            this.txtValuePerLiter = new System.Windows.Forms.TextBox();
+            this.txtFat = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.cmbMemeber = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.BtnDeleteAll = new System.Windows.Forms.Button();
             this.BtnDelete = new System.Windows.Forms.Button();
             this.BtnUpdate = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.lblDate = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnNewUser = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbSocite = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.txtTime = new System.Windows.Forms.TextBox();
+            this.txtDate = new System.Windows.Forms.TextBox();
+            this.cmbCollector = new System.Windows.Forms.ComboBox();
+            this.label15 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.btnReportDownload = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -86,7 +87,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(927, 58);
+            this.label13.Location = new System.Drawing.Point(1097, 62);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(146, 25);
             this.label13.TabIndex = 28;
@@ -96,7 +97,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(927, 97);
+            this.label12.Location = new System.Drawing.Point(1097, 108);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(100, 25);
             this.label12.TabIndex = 27;
@@ -106,37 +107,27 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(927, 19);
+            this.label11.Location = new System.Drawing.Point(1097, 23);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(56, 25);
+            this.label11.Size = new System.Drawing.Size(82, 25);
             this.label11.TabIndex = 26;
-            this.label11.Text = "මේදය";
+            this.label11.Text = "මේදය (%)";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(450, 102);
+            this.label10.Location = new System.Drawing.Point(561, 68);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(196, 25);
             this.label10.TabIndex = 25;
             this.label10.Text = "ලබාදුන් කිරි ප්‍රමාණය(ලීටර්)";
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(450, 63);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(134, 25);
-            this.label9.TabIndex = 23;
-            this.label9.Text = "සාමාජිකයාගේ නම";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(450, 24);
+            this.label8.Location = new System.Drawing.Point(561, 26);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(112, 25);
             this.label8.TabIndex = 22;
@@ -146,7 +137,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(13, 133);
+            this.label7.Location = new System.Drawing.Point(561, 108);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(223, 25);
             this.label7.TabIndex = 21;
@@ -155,186 +146,187 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(13, 105);
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(14, 112);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(39, 25);
+            this.label6.Size = new System.Drawing.Size(31, 20);
             this.label6.TabIndex = 20;
             this.label6.Text = "TS";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(13, 63);
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(14, 63);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 25);
+            this.label5.Size = new System.Drawing.Size(43, 20);
             this.label5.TabIndex = 19;
             this.label5.Text = "BTS";
             // 
-            // textBox2
+            // txtBts
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox2.Location = new System.Drawing.Point(249, 24);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(195, 30);
-            this.textBox2.TabIndex = 32;
+            this.txtBts.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBts.Location = new System.Drawing.Point(201, 63);
+            this.txtBts.Name = "txtBts";
+            this.txtBts.Size = new System.Drawing.Size(264, 30);
+            this.txtBts.TabIndex = 1;
             // 
-            // textBox3
+            // txtTs
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox3.Location = new System.Drawing.Point(249, 58);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(195, 30);
-            this.textBox3.TabIndex = 33;
+            this.txtTs.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTs.Location = new System.Drawing.Point(201, 105);
+            this.txtTs.Name = "txtTs";
+            this.txtTs.Size = new System.Drawing.Size(264, 30);
+            this.txtTs.TabIndex = 2;
             // 
-            // textBox4
+            // txtlrNumber
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox4.Location = new System.Drawing.Point(249, 94);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(195, 30);
-            this.textBox4.TabIndex = 34;
+            this.txtlrNumber.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtlrNumber.Location = new System.Drawing.Point(790, 105);
+            this.txtlrNumber.Name = "txtlrNumber";
+            this.txtlrNumber.Size = new System.Drawing.Size(274, 30);
+            this.txtlrNumber.TabIndex = 5;
             // 
-            // textBox5
+            // txtGivenMilk
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox5.Location = new System.Drawing.Point(249, 130);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(195, 30);
-            this.textBox5.TabIndex = 35;
+            this.txtGivenMilk.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGivenMilk.Location = new System.Drawing.Point(790, 63);
+            this.txtGivenMilk.Name = "txtGivenMilk";
+            this.txtGivenMilk.Size = new System.Drawing.Size(274, 30);
+            this.txtGivenMilk.TabIndex = 4;
             // 
-            // textBox6
+            // txtSampleNumber
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox6.Location = new System.Drawing.Point(647, 94);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(274, 30);
-            this.textBox6.TabIndex = 40;
+            this.txtSampleNumber.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSampleNumber.Location = new System.Drawing.Point(790, 21);
+            this.txtSampleNumber.Name = "txtSampleNumber";
+            this.txtSampleNumber.Size = new System.Drawing.Size(274, 30);
+            this.txtSampleNumber.TabIndex = 3;
             // 
-            // textBox7
+            // txtAmount
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox7.Location = new System.Drawing.Point(647, 52);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(274, 30);
-            this.textBox7.TabIndex = 39;
+            this.txtAmount.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAmount.Location = new System.Drawing.Point(1269, 105);
+            this.txtAmount.Name = "txtAmount";
+            this.txtAmount.Size = new System.Drawing.Size(239, 30);
+            this.txtAmount.TabIndex = 8;
             // 
-            // textBox8
+            // txtValuePerLiter
             // 
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox8.Location = new System.Drawing.Point(647, 16);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(274, 30);
-            this.textBox8.TabIndex = 38;
+            this.txtValuePerLiter.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtValuePerLiter.Location = new System.Drawing.Point(1269, 55);
+            this.txtValuePerLiter.Name = "txtValuePerLiter";
+            this.txtValuePerLiter.Size = new System.Drawing.Size(239, 30);
+            this.txtValuePerLiter.TabIndex = 7;
             // 
-            // textBox13
+            // txtFat
             // 
-            this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox13.Location = new System.Drawing.Point(1087, 92);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(239, 30);
-            this.textBox13.TabIndex = 43;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox14.Location = new System.Drawing.Point(1087, 53);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(239, 30);
-            this.textBox14.TabIndex = 42;
-            // 
-            // textBox15
-            // 
-            this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox15.Location = new System.Drawing.Point(1087, 16);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(239, 30);
-            this.textBox15.TabIndex = 41;
+            this.txtFat.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFat.Location = new System.Drawing.Point(1269, 18);
+            this.txtFat.Name = "txtFat";
+            this.txtFat.Size = new System.Drawing.Size(239, 30);
+            this.txtFat.TabIndex = 6;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox15);
-            this.groupBox1.Controls.Add(this.textBox13);
-            this.groupBox1.Controls.Add(this.textBox14);
+            this.groupBox1.Controls.Add(this.button7);
+            this.groupBox1.Controls.Add(this.cmbMemeber);
+            this.groupBox1.Controls.Add(this.txtFat);
+            this.groupBox1.Controls.Add(this.txtAmount);
+            this.groupBox1.Controls.Add(this.txtValuePerLiter);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.txtGivenMilk);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox7);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox8);
+            this.groupBox1.Controls.Add(this.txtSampleNumber);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.txtlrNumber);
             this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.txtTs);
             this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.txtBts);
             this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Location = new System.Drawing.Point(18, 125);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1332, 173);
+            this.groupBox1.Size = new System.Drawing.Size(1530, 152);
             this.groupBox1.TabIndex = 44;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "දත්ත";
             // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(424, 21);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(90, 33);
+            this.button7.TabIndex = 57;
+            this.button7.Text = "සොයන්න";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // cmbMemeber
+            // 
+            this.cmbMemeber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbMemeber.FormattingEnabled = true;
+            this.cmbMemeber.Location = new System.Drawing.Point(201, 21);
+            this.cmbMemeber.Name = "cmbMemeber";
+            this.cmbMemeber.Size = new System.Drawing.Size(217, 33);
+            this.cmbMemeber.TabIndex = 0;
+            // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(18, 304);
+            this.dataGridView1.Location = new System.Drawing.Point(18, 283);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1331, 307);
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(1530, 411);
             this.dataGridView1.TabIndex = 45;
-            // 
-            // BtnDeleteAll
-            // 
-            this.BtnDeleteAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDeleteAll.Location = new System.Drawing.Point(1198, 617);
-            this.BtnDeleteAll.Name = "BtnDeleteAll";
-            this.BtnDeleteAll.Size = new System.Drawing.Size(151, 71);
-            this.BtnDeleteAll.TabIndex = 46;
-            this.BtnDeleteAll.Text = "සියලුම දත්ත ඉවත් කරන්න";
-            this.BtnDeleteAll.UseVisualStyleBackColor = true;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // BtnDelete
             // 
             this.BtnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDelete.Location = new System.Drawing.Point(1041, 617);
+            this.BtnDelete.Location = new System.Drawing.Point(1394, 703);
             this.BtnDelete.Name = "BtnDelete";
             this.BtnDelete.Size = new System.Drawing.Size(151, 71);
-            this.BtnDelete.TabIndex = 47;
+            this.BtnDelete.TabIndex = 2;
             this.BtnDelete.Text = "ඉවත් කරන්න";
             this.BtnDelete.UseVisualStyleBackColor = true;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
             // BtnUpdate
             // 
             this.BtnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnUpdate.Location = new System.Drawing.Point(884, 617);
+            this.BtnUpdate.Location = new System.Drawing.Point(1227, 703);
             this.BtnUpdate.Name = "BtnUpdate";
             this.BtnUpdate.Size = new System.Drawing.Size(151, 71);
-            this.BtnUpdate.TabIndex = 48;
+            this.BtnUpdate.TabIndex = 1;
             this.BtnUpdate.Text = "වනස් කරන්න";
             this.BtnUpdate.UseVisualStyleBackColor = true;
+            this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(727, 617);
+            this.button1.Location = new System.Drawing.Point(1056, 703);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(151, 71);
-            this.button1.TabIndex = 49;
+            this.button1.TabIndex = 0;
             this.button1.Text = "ඇතුලත් කරන්න";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(1170, 17);
+            this.label14.Location = new System.Drawing.Point(1389, 27);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(34, 16);
             this.label14.TabIndex = 50;
@@ -343,39 +335,28 @@
             // lblDate
             // 
             this.lblDate.AutoSize = true;
-            this.lblDate.Location = new System.Drawing.Point(1222, 17);
+            this.lblDate.Location = new System.Drawing.Point(1441, 27);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(16, 16);
             this.lblDate.TabIndex = 51;
             this.lblDate.Text = "...";
             // 
-            // button2
+            // btnNewUser
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(19, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(237, 41);
-            this.button2.TabIndex = 52;
-            this.button2.Text = "නව පරිශීලක එකතු කරන්න";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(18, 633);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(201, 41);
-            this.button3.TabIndex = 53;
-            this.button3.Text = "Excel බාගන්න";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnNewUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewUser.Location = new System.Drawing.Point(19, 12);
+            this.btnNewUser.Name = "btnNewUser";
+            this.btnNewUser.Size = new System.Drawing.Size(237, 41);
+            this.btnNewUser.TabIndex = 52;
+            this.btnNewUser.Text = "නව පරිශීලක එකතු කරන්න";
+            this.btnNewUser.UseVisualStyleBackColor = true;
+            this.btnNewUser.Click += new System.EventHandler(this.button2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(641, 20);
+            this.label3.Location = new System.Drawing.Point(1065, 23);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(232, 25);
             this.label3.TabIndex = 30;
@@ -385,7 +366,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 20);
+            this.label1.Location = new System.Drawing.Point(12, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(107, 25);
             this.label1.TabIndex = 29;
@@ -395,48 +376,74 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(366, 20);
+            this.label2.Location = new System.Drawing.Point(809, 21);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(48, 25);
             this.label2.TabIndex = 18;
             this.label2.Text = "දිනය";
             // 
-            // dateTimePicker1
+            // cmbSocite
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(420, 22);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker1.TabIndex = 54;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(126, 20);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(221, 24);
-            this.comboBox1.TabIndex = 55;
+            this.cmbSocite.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbSocite.FormattingEnabled = true;
+            this.cmbSocite.Location = new System.Drawing.Point(125, 18);
+            this.cmbSocite.Name = "cmbSocite";
+            this.cmbSocite.Size = new System.Drawing.Size(250, 33);
+            this.cmbSocite.TabIndex = 0;
+            this.cmbSocite.Click += new System.EventHandler(this.cmbSocite_Click);
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.groupBox2.Controls.Add(this.dateTimePicker2);
-            this.groupBox2.Controls.Add(this.comboBox1);
-            this.groupBox2.Controls.Add(this.dateTimePicker1);
+            this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox2.Controls.Add(this.txtTime);
+            this.groupBox2.Controls.Add(this.txtDate);
+            this.groupBox2.Controls.Add(this.cmbCollector);
+            this.groupBox2.Controls.Add(this.label15);
+            this.groupBox2.Controls.Add(this.cmbSocite);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Location = new System.Drawing.Point(19, 63);
+            this.groupBox2.Location = new System.Drawing.Point(19, 59);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1329, 56);
+            this.groupBox2.Size = new System.Drawing.Size(1529, 60);
             this.groupBox2.TabIndex = 54;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "ගොනුව";
             // 
-            // dateTimePicker2
+            // txtTime
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(879, 22);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker2.TabIndex = 56;
+            this.txtTime.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTime.Location = new System.Drawing.Point(1303, 17);
+            this.txtTime.Name = "txtTime";
+            this.txtTime.Size = new System.Drawing.Size(144, 34);
+            this.txtTime.TabIndex = 3;
+            // 
+            // txtDate
+            // 
+            this.txtDate.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDate.Location = new System.Drawing.Point(863, 17);
+            this.txtDate.Name = "txtDate";
+            this.txtDate.Size = new System.Drawing.Size(186, 34);
+            this.txtDate.TabIndex = 2;
+            // 
+            // cmbCollector
+            // 
+            this.cmbCollector.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbCollector.FormattingEnabled = true;
+            this.cmbCollector.Location = new System.Drawing.Point(555, 18);
+            this.cmbCollector.Name = "cmbCollector";
+            this.cmbCollector.Size = new System.Drawing.Size(238, 33);
+            this.cmbCollector.TabIndex = 1;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(381, 21);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(168, 25);
+            this.label15.TabIndex = 57;
+            this.label15.Text = "එකතුකරන්නාගේ නම";
             // 
             // button4
             // 
@@ -460,20 +467,43 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(771, 12);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(286, 41);
+            this.button6.TabIndex = 57;
+            this.button6.Text = "එකතු කරන්නන්ගේ විස්තර";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // btnReportDownload
+            // 
+            this.btnReportDownload.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReportDownload.Location = new System.Drawing.Point(1063, 12);
+            this.btnReportDownload.Name = "btnReportDownload";
+            this.btnReportDownload.Size = new System.Drawing.Size(198, 41);
+            this.btnReportDownload.TabIndex = 58;
+            this.btnReportDownload.Text = "වාර්තා බාගත කිරීම";
+            this.btnReportDownload.UseVisualStyleBackColor = true;
+            this.btnReportDownload.Click += new System.EventHandler(this.button8_Click);
+            // 
             // manager_UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1360, 700);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(1586, 783);
+            this.Controls.Add(this.btnReportDownload);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnNewUser);
             this.Controls.Add(this.lblDate);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.BtnDeleteAll);
             this.Controls.Add(this.BtnDelete);
             this.Controls.Add(this.BtnUpdate);
             this.Controls.Add(this.dataGridView1);
@@ -482,7 +512,7 @@
             this.MinimizeBox = false;
             this.Name = "manager_UI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "manager_UI";
+            this.Text = "Manage";
             this.Load += new System.EventHandler(this.manager_UI_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -500,39 +530,40 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox txtBts;
+        private System.Windows.Forms.TextBox txtTs;
+        private System.Windows.Forms.TextBox txtlrNumber;
+        private System.Windows.Forms.TextBox txtGivenMilk;
+        private System.Windows.Forms.TextBox txtSampleNumber;
+        private System.Windows.Forms.TextBox txtAmount;
+        private System.Windows.Forms.TextBox txtValuePerLiter;
+        private System.Windows.Forms.TextBox txtFat;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        public System.Windows.Forms.Button BtnDeleteAll;
         public System.Windows.Forms.Button BtnDelete;
         public System.Windows.Forms.Button BtnUpdate;
         public System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label lblDate;
-        public System.Windows.Forms.Button button2;
-        public System.Windows.Forms.Button button3;
+        public System.Windows.Forms.Button btnNewUser;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbSocite;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
         public System.Windows.Forms.Button button4;
         public System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.ComboBox cmbCollector;
+        public System.Windows.Forms.Button button6;
+        private System.Windows.Forms.TextBox txtDate;
+        private System.Windows.Forms.TextBox txtTime;
+        private System.Windows.Forms.ComboBox cmbMemeber;
+        public System.Windows.Forms.Button button7;
+        public System.Windows.Forms.Button btnReportDownload;
     }
 }

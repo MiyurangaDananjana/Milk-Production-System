@@ -9,20 +9,6 @@ namespace Milk_Production
 {
     class AppConttroler
     {
-        public int Id { get; set; }
-        public string MemeberName { get; set; }
-        public decimal BTS { get; set; }
-        public decimal TS { get; set; }
-        public decimal LactoMeterReading { get; set; }
-        public decimal SampleNumber { get; set; }
-        public decimal AmountOfMilkGiven { get; set; }
-        public decimal Fats { get; set; }
-        public decimal ValuesOfLiter { get; set; }
-        public decimal MoneyGiven { get; set; }
-        public string SocityName { get; set; }
-        public string dateEnterName { get; set; }
-        public string Date { get; set; }
-        public string LoryGivenName { get; set; }
 
         public bool systemLogin(string userName, string password)
         {

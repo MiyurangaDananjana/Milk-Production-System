@@ -1,12 +1,6 @@
 ﻿using Milk_Production.DAL;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Milk_Production.UI
@@ -44,23 +38,15 @@ namespace Milk_Production.UI
         protected void clearTextBox()
         {
             txtSoname.Text = string.Empty;
-            txtAddressLine1.Text= string.Empty;
-            txtAddressLine2.Text= string.Empty;
+            txtAddressLine1.Text = string.Empty;
+            txtAddressLine2.Text = string.Empty;
         }
 
         private void frmSociety_Load(object sender, EventArgs e)
         {
             loadGrid();
             clearTextBox();
-            if (dataGridView1.Rows.Count == 0)
-            {
-                dataGridView1.Enabled = false;
-            }
-            else
-            {
 
-                dataGridView1.Enabled = true;
-            }
         }
 
         protected void loadGrid()
@@ -77,7 +63,7 @@ namespace Milk_Production.UI
 
         private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex <= 0) // Ensure a valid row index
+            if (e.RowIndex > 0) // Ensure a valid row index
             {
 
                 DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
@@ -85,10 +71,6 @@ namespace Milk_Production.UI
                 txtSoname.Text = selectedRow.Cells["NAME"].Value.ToString();
                 txtAddressLine1.Text = selectedRow.Cells["ADDRESS_LINE_1"].Value.ToString();
                 txtAddressLine2.Text = selectedRow.Cells["ADDRESS_LINE_2"].Value.ToString();
-            }
-            else
-            {
-                dataGridView1.Enabled = false;
             }
         }
 
