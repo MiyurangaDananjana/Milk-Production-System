@@ -11,7 +11,7 @@ namespace Milk_Production.DAL
     {
         public static int userId { get; set; }
         public string name { get; set; }
-        public int password { get; set; }
+        public string password { get; set; }
         public int userRole { get; set; }
         public int createBy { get; set; }
         public DateTime createDate { get; set; }

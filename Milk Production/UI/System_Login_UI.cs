@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Milk_Production.DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,7 +23,7 @@ namespace Milk_Production
             try
             {
                 string userName = txtUserName.Text;
-                string password = txtPassword.Text;
+                string password =  passwordHash.passHash(txtPassword.Text);
 
                 if (string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(password))
                 {
@@ -67,7 +68,7 @@ namespace Milk_Production
 
         private void System_Login_UI_Load(object sender, EventArgs e)
         {
-            lblconnectioncheck.Text = Data.checkConnection();
+            //lblconnectioncheck.Text = Data.checkConnection();
         }
         private void txtPassword_KeyPress(object sender, KeyPressEventArgs e)
         {

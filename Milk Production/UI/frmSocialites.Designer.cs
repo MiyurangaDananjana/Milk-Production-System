@@ -83,6 +83,7 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(704, 385);
             this.dataGridView1.TabIndex = 55;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // textBox4
             // 
@@ -122,6 +123,7 @@
             this.BtnDelete.TabIndex = 52;
             this.BtnDelete.Text = "ඉවත් කරන්න";
             this.BtnDelete.UseVisualStyleBackColor = true;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
             // label1
             // 
@@ -142,6 +144,7 @@
             this.BtnUpdate.TabIndex = 53;
             this.BtnUpdate.Text = "වෙනස් කරන්න";
             this.BtnUpdate.UseVisualStyleBackColor = true;
+            this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
             // 
             // txtSoname
             // 

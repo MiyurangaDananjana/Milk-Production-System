@@ -40,9 +40,10 @@ namespace Milk_Production.UI
            
             if(txtPassword.Text == txtRePassword.Text)
             {
+                
                 systemUser_DAL dal = new systemUser_DAL();
                 dal.name = txtName.Text;
-                dal.password = Convert.ToInt32(txtPassword.Text);
+                dal.password = passwordHash.passHash(txtPassword.Text);
                 dal.userRole = (int)cmbRole.SelectedValue;
                 dal.createDate = DateTime.Now;
                 string message = dal.SaveNewUser();

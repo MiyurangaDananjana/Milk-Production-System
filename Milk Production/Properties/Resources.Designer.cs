@@ -63,6 +63,16 @@ namespace Milk_Production.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8821552_4011825 {
+            get {
+                object obj = ResourceManager.GetObject("8821552_4011825", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exit_full_screen {
             get {
                 object obj = ResourceManager.GetObject("exit-full-screen", resourceCulture);
@@ -86,6 +96,16 @@ namespace Milk_Production.Properties {
         internal static System.Drawing.Bitmap file__1_1 {
             get {
                 object obj = ResourceManager.GetObject("file (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap login {
+            get {
+                object obj = ResourceManager.GetObject("login", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

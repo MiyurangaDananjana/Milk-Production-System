@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace Milk_Production
 {
@@ -40,25 +41,33 @@ namespace Milk_Production
 
         public static string checkConnection()
         {
-            string message = string.Empty;
-            using (SqlConnection sqlConnection = new SqlConnection(cs))
+            try
             {
-            
-
-
-                try
+                string message = string.Empty;
+                using (SqlConnection sqlConnection = new SqlConnection(cs))
                 {
-                    sqlConnection.Open();
-                    message = "Connection successful.";
-                    return message;
-                }
-                catch (Exception)
-                {
-                    message = "Connection Fail.";
-                    return message;
-                    
+
+                    try
+                    {
+                        sqlConnection.Open();
+                        message = "දත්ත සමුදා සම්බන්ධතාවය සාර්ථකයි!";
+                        return message;
+                    }
+                    catch (Exception)
+                    {
+                        message = "දත්ත සමුදා සම්බන්ධතාවය අසාර්ථකයි!";
+                        return message;
+
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+
+                
+                return "Error" + ex;
+            }
+           
 
         }
     }
